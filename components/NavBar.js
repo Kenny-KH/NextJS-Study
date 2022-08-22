@@ -18,7 +18,7 @@ export default function NavBar() {
 			<Link href="/about">
 				<a
 					className={[
-						style.link,
+						styles.link,
 						router.pathname === "/about" ? styles.active : "",
 					].join(" ")}
 				>
